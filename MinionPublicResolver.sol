@@ -15,7 +15,7 @@ contract PublicResolver {
     function contenthash(bytes32 node) external view returns (bytes memory) {}
 }
 
-contract MinionMetadata {
+contract MinionPublicResolver {
     string public constant MINION_ACTION_DETAILS = '{"isMinion": true, "title":"MINION", "description":"';
     
     Moloch public moloch;
